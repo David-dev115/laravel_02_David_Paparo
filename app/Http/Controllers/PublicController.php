@@ -24,19 +24,7 @@ class PublicController extends Controller
     }
 
 
-    public function servizi () {
 
-    $servizi = [
-
-        ['tipo' => 'Guide e Tutorial' , 'category' => 'campagna, multiplayer, modalità Forge' , 'img' => 'media/servizi/01-tutorial.png' ],
-        ['tipo' => 'Trucchi e consigli' , 'category' => "migliora l'esperienza di gioco" , 'img' => 'media/servizi/02-trucchi.png'],
-        ['tipo' => 'Contenuti Multimediali' , 'category' => "Video GamePlay, clip, interviste" , 'img' => 'media/header_2.png' ],
-
-    ];
-    return view ('pag_servizi' , ['all_service' => $servizi  ]);   
-
-
-    }
 
 
 

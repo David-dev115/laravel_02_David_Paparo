@@ -29,6 +29,7 @@
 
 
     {{-- css custom --}}
+
     <link rel="stylesheet" href="style.css">
 
 
@@ -93,6 +94,7 @@
 
 
 
+
             </div>
 
         </div>
@@ -106,37 +108,11 @@
 
     <section class="container-fluid azzurro box3 sect-servizi">
 
-        <h3 class="text-center mb-5">Servizi </h3>
+        <h3 class="text-center mb-5">Servizo dettaglio </h3>
 
         <div class="row">
 
-
-            {{-- <ul>
-                    @foreach ($personaggi as $protagonista)
-                        <li> {{ $protagonista['name'] }} {{ $protagonista['role'] }} </li>
-                    @endforeach
-                </ul> --}}
-
-            {{-- @dd($all_service) --}}
-
-            @foreach ($all_service as $single_service)
-                <div class="col-12 col-md-4">
-
-                    <div class="card mx-auto mt-5 card-serv-custom" style="width: 18rem;">
-                        <img src="{{ $single_service['img'] }}" class="card-img-top img-fluid card-service" alt="immagine servizio">
-                        <div class="carta-corpo text-center">
-                            <h5 class="titolo-carta mt-3 text-arancio">{{ $single_service['tipo'] }}</h5>
-                            <biforcare class="carta-testo text-azzurro"> {{ $single_service['category'] }} </biforcare>
-                                                            {{-- rotta parametrica -> vedi segnaposto su web.php e parametro in ServiziController.php --}}
-                            <a href="{{route('serviceDett' , ['segnaposto' => $single_service['tipo']])}}" class="btn btn-secondary my-3 btn-custom">Vai al servizio</a>
-
-                        </div>
-                    </div>
-
-                </div>
-            @endforeach
-
-
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim tempora officia, delectus similique quo maxime quae iusto dolores recusandae laborum ducimus veniam possimus deserunt vel modi quod? Deleniti, nostrum quas.</p>
 
 
         </div>
